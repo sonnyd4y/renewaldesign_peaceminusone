@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+    box-sizing: border-box;
+    background-color: #000;
+}
+.nav{
+    height: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: black;
+}
+.nav .logo{
+    line-height: 60px;
+    float: left;
+    margin-left: 30px;
+    display: block;
+}
+.nav .logo img{
+    margin-top: 14px;
+    height: 30px;
+}
+.nav menu {
+    float: left;
+    list-style: none;
+    padding-right: 15px;
+}
+.nav .menu li{
+    float:left;
+    line-height:60px;
+    margin-left: 30px;
+    }
+.nav .menu li a{
+    color: #545454;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    padding: 0 15px;
+}
+.nav .menu li a:hover{
+    background-color: red;
+}
+
+.container1{
+    width: 720px;
+    height: 600px;
+    margin-left: 120px;
+    margin-right: 120px;
+
+}
+
+.first-text{
+    width: 600px;
+    height: 600px;
+    display: inline-block;
+    vertical-align: center;
+    margin-bottom: 8px;
+    color: #fff;
+}
+
+.first-img{
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    height: 600px;
+}
+.vogue{
+    position: absolute;
+    top: 61px;
+    left: 10px;
+    right: 50px;
+    
+}
+
+.container2{
+    width: 720px;
+    height: 600px;
+    margin-left: 120px;
+    margin-right: 120px;
+
+}
+
+.sec-img{
+    width: 600px;
+    height: 600px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 8px;
+
+}
+
+.sec-text{
+    display: inline-block;
+    position: relative;
+    vertical-align: center;
+    height: 600px;
+    color: #fff;
+    left: 650px;
+    bottom: 240px;
+}
+
+.seoul{
+    position: relative;
+    display: block;
+    margin-bottom: 100px;
+    
+}
+
+.third-text{
+    display: block;
+    color: #fff;
+    position: relative;
+    text-align: center;
+    top : 32px;
+    margin-right: auto;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.third-img{
+    position: relative;
+    width: 1200px;
+    margin-bottom: 40px;
+}
+.third-img .osaka{
+    width: 1200px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 200px;
+}
+.last-img{
+    position: relative;
+    top: 0px;
+    width: 600px;
+    height: 600px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 100px;
+    left: 600px;
+}
+.last-text{
+    position: absolute;
+    width: 600px;
+    top: 2700px;
+    left: 120px;
+    margin-bottom: 1300px;
+    color: #fff;
+}
+.contents h1{
+    color: #FF5353;
+    margin-bottom: 10px;
+}
+.contents p{
+    margin-bottom: 20px;
+    width: 600px;
+    color: #fff;
+}
+.contents a{
+    text-decoration: none;
+
+    font-size: 20px;
+
+    width: 30px;
+    height: 14px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #FF5353;
+    font-size: 12px;
+    color: #fff;
+    padding: 4px 16px;
+}
+.contents .third-text p{
+    width: 1200px;
+    display: block;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.footer{
+    margin-top: 40px;
+    height: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: black;
+}
+.footer .logo{
+    line-height: 60px;
+    float: left;
+    margin-left: 30px;
+    display: block;
+}
+.footer img{
+    margin-top: 14px;
+    height: 30px;
+}
+.footer .facebook{
+    margin-left: 900px;
+}
+.footer .instargram{
+    margin-left: 40px;
+}
+.footer .twitter{
+    margin-left: 40px;
+}

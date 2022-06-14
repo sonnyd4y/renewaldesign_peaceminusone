@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+    box-sizing: border-box;
+}
+.nav{
+    width: 1440px;
+    height: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: black;
+}
+.nav .logo{
+    line-height: 60px;
+    float: left;
+    margin-left: 30px;
+    display: block;
+}
+.nav .logo img{
+    margin-top: 14px;
+    height: 30px;
+}
+.nav menu {
+    float: left;
+    list-style: none;
+    padding-right: 15px;
+}
+.nav .menu li{
+    float:left;
+    line-height:60px;
+    margin-left: 30px;
+    }
+.nav .menu li a{
+    color: #545454;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    padding: 0 15px;
+}
+.nav .menu li a:hover{
+    background-color: red;
+}
+.main .img1{
+    position: absolute;
+    width: 1437px;
+    height: 726px;
+    left: 5px;
+    top: 91px;
+}
+
+.main-flower{
+    position: absolute;
+}
+.hero_header {
+position: relative;
+height: 726px;
+width: 1440px;
+
+background-image: url("https://i.postimg.cc/WbbKRwjV/background-4.png");
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.hero_header .helper{
+display: inline-block;
+height: 10px;
+vertical-align: middle;
+}
+.info {
+color: #ffffff;
+display: inline-block;
+width: 100%;
+font-weight: 100;
+margin-top: 280px;
+margin-left: 80px;
+vertical-align: top;
+}
+
+.info p {
+margin-left: 0px;
+margin-top: 0;
+margin-bottom: 16px;
+font-size: 24px;
+text-shadow: #333333;
+font-weight: bolder;
+}
+.first-img{
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    height: 280px;
+    box-shadow: 5px 5px 10px red;
+    left:800px;
+    bottom: 250px;
+    right: 100px;
+}
+.main-img{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.More{
+    border: 2px solid #ffffff;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    color: #ffffff;
+    font-size: 18px;
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: bolder;
+    display :inline-block;
+    margin-bottom: 20px;
+}
+.color_box{
+    width: 1440px;
+    height: 140px;
+    background-color: #000;
+}
+
+.air_force1{
+    text-align: center;
+    width: 1440px;
+    background-image: url("https://i.postimg.cc/zfn8th8k/Lovepik-com-500938029-old-scratch-texture-background.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-decoration: none;
+    
+
+}
+.air_force1 img{
+    position: static;
+}
+.air_force1 .flower{
+    width : 484px;
+    height : 515px;
+    margin-left: 80px;
+    margin-right: 120px;
+}
+.air_force1 .nike{
+    width : 479px;
+    height : 266px;
+    margin-top: 140px;
+   margin-bottom: 90px;
+}
+.air_force1 h1{
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.air_force1 .More2{
+    border: 2px solid #ffffff;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.products{
+    color: #000;
+}
+.menu2{display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 4px;
+    text-align: center;
+    position: absolute;
+    width: 500px;
+    height: 29px;
+}
+
+.menu2 p{
+    width: 0px;
+    height: 30px;
+    border: 2px solid #000000;
+}
+.On_Sale{
+    text-decoration: none;
+    color: red;
+    margin-right: 40px;
+    margin-left: 640px;
+    margin-bottom: 30px;
+}
+.Sold_Out{
+    color: #c0c0c0;
+    width: 40px;
+    margin-left: 40px;
+    text-decoration: none;
+}
+.product{
+    text-align: center;
+    width: 225px;
+    display: block;
+    color: #545454;
+    text-decoration: none;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 90px;
+}
+.product-name{
+    margin-top: 20px;
+    margin-bottom: 4px;
+}
+.product-list{
+    width: 735px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.product img:hover {
+    opacity:.6;
+    background-color: red;
+    }
+h3{
+    text-align: center;
+    font-size: 24px;
+    color: #545454;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.clearfix{
+    clear:both;
+}
+.footer{
+    margin-top: 1000px;
+    height: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: black;
+}
+.footer .logo{
+    line-height: 60px;
+    float: left;
+    margin-left: 30px;
+    display: block;
+}
+.footer img{
+    margin-top: 14px;
+    height: 30px;
+}
+.footer .facebook{
+    margin-left: 900px;
+}
+.footer .instargram{
+    margin-left: 40px;
+}
+.footer .twitter{
+    margin-left: 40px;
+}
